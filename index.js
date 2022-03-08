@@ -235,12 +235,12 @@ Using the annoyingSong function below do the following:
 */
 
 function annoyingSong(startNum){
-if(startNum > 1){
-  console.log(startNum, 'bottles of soda on the wall,',startNum, 'bottles of soda, take one down pass it around' ,startNum-1, 'bottles of soda on the wall');
-  startNum--;
+ return (startNum) +' bottles of soda on the wall, '+(startNum)+' bottles of soda, take one down pass it around '+(startNum-1)+' bottles of soda on the wall';
 }
+for(let i=4; i>1; i--){
+  console.log(annoyingSong(i))
 }
-console.log(annoyingSong(5))
+
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 

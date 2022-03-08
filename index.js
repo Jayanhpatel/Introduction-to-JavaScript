@@ -235,8 +235,9 @@ Using the annoyingSong function below do the following:
 */
 
 function annoyingSong(startNum){
-for(startNum; startNum > 1; startNum--){
-  console.log(startNum, 'bottles of soda on the wall,',startNum, 'bottles of soda, take one down pass it around' ,startNum-1, 'bottles of soda on the wall')
+if(startNum > 1){
+  console.log(startNum, 'bottles of soda on the wall,',startNum, 'bottles of soda, take one down pass it around' ,startNum-1, 'bottles of soda on the wall');
+  startNum--;
 }
 }
 console.log(annoyingSong(5))
